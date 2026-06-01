@@ -4334,7 +4334,7 @@ netstream.Hook("NPCSpawnESPInfo", function(data)
 end);
 
 netstream.Hook("WarhornOrDeathWhistleSound", function(speaker, wdwSound, wdwPitch)
-	speaker:EmitSound(wdwSound, wdwPitch)
+	speaker:EmitSound(wdwSound, 100, wdwPitch)
 end)
 
 -- Save data icon in top right.
